@@ -66,7 +66,7 @@ host = 'localhost'
 try:
 
     def request_blocker(self):
-        print(f"{green}[+] malicious request detected{reset}")
+        print(f"{green}[+] blocking detected request{reset}")
         self.send_error(ecode, emsg)
         print(f"{green}[+] request blocked successfully.........\n\n{reset}")
 
