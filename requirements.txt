@@ -1,0 +1,9 @@
+sys
+socket
+argparse
+colorama
+pyfiglet
+requests
+os
+json
+http.server
